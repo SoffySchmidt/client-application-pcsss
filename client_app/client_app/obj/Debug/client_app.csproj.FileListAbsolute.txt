@@ -1,0 +1,15 @@
+d:\DRKsettings$\local\cjuul\Desktop\srv_cl\client_app\client_app\bin\Debug\client_app.exe.config
+d:\DRKsettings$\local\cjuul\Desktop\srv_cl\client_app\client_app\bin\Debug\client_app.exe
+d:\DRKsettings$\local\cjuul\Desktop\srv_cl\client_app\client_app\bin\Debug\client_app.pdb
+d:\DRKsettings$\local\cjuul\Desktop\srv_cl\client_app\client_app\obj\Debug\client_app.exe
+d:\DRKsettings$\local\cjuul\Desktop\srv_cl\client_app\client_app\obj\Debug\client_app.pdb
+d:\DRKsettings$\local\cjuul\Desktop\srv_cl\client_app\client_app\obj\Debug\client_app.csprojResolveAssemblyReference.cache
+C:\Users\Sofie Schmidt\Desktop\srv_cl\client_app\client_app\bin\Debug\client_app.exe.config
+C:\Users\Sofie Schmidt\Desktop\srv_cl\client_app\client_app\obj\Debug\client_app.exe
+C:\Users\Sofie Schmidt\Desktop\srv_cl\client_app\client_app\obj\Debug\client_app.pdb
+C:\Users\Sofie Schmidt\Desktop\srv_cl\client_app\client_app\bin\Debug\client_app.exe
+C:\Users\Sofie Schmidt\Desktop\srv_cl\client_app\client_app\bin\Debug\client_app.pdb
+C:\Users\Sofie Schmidt\Desktop\srv_cl\client_app\client_app\obj\Debug\client_app.csprojResolveAssemblyReference.cache
+C:\Users\Sofie Schmidt\Documents\GitHub\client-application-pcsss\client_app\client_app\bin\Debug\client_app.exe.config
+C:\Users\Sofie Schmidt\Documents\GitHub\client-application-pcsss\client_app\client_app\obj\Debug\client_app.exe
+C:\Users\Sofie Schmidt\Documents\GitHub\client-application-pcsss\client_app\client_app\obj\Debug\client_app.pdb
