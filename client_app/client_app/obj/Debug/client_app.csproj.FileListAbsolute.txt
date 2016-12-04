@@ -13,3 +13,9 @@ C:\Users\Sofie Schmidt\Desktop\srv_cl\client_app\client_app\obj\Debug\client_app
 C:\Users\Sofie Schmidt\Documents\GitHub\client-application-pcsss\client_app\client_app\bin\Debug\client_app.exe.config
 C:\Users\Sofie Schmidt\Documents\GitHub\client-application-pcsss\client_app\client_app\obj\Debug\client_app.exe
 C:\Users\Sofie Schmidt\Documents\GitHub\client-application-pcsss\client_app\client_app\obj\Debug\client_app.pdb
+C:\Users\LaChris\Documents\github\client_application_pcss\client_app\client_app\bin\Debug\client_app.exe.config
+C:\Users\LaChris\Documents\github\client_application_pcss\client_app\client_app\obj\Debug\client_app.exe
+C:\Users\LaChris\Documents\github\client_application_pcss\client_app\client_app\obj\Debug\client_app.pdb
+C:\Users\LaChris\Documents\github\client_application_pcss\client_app\client_app\bin\Debug\client_app.exe
+C:\Users\LaChris\Documents\github\client_application_pcss\client_app\client_app\bin\Debug\client_app.pdb
+C:\Users\LaChris\Documents\github\client_application_pcss\client_app\client_app\obj\Debug\client_app.csprojResolveAssemblyReference.cache

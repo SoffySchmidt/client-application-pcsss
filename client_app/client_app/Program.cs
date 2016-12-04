@@ -34,95 +34,67 @@ namespace client_app
 
             while (_connected)
             {
-                //reads buffer to stream
-                //Console.Write("msg; ");
-                //data = Console.ReadLine();
-
+                //calculation functions
                 //writes buffer to stream and flushses buffer to send data approx. simuntaiously..
-                //..to avoid waiting to send when buffer is full'
-
-                int operation = 0;
+                //..to avoid waiting to send when buffer is full
                 double result = 0;
 
-                Console.WriteLine("Type your first number :");
-                string stringFirstNumber = Console.ReadLine();
-                double firstNumber = Convert.ToDouble(stringFirstNumber);
+                Console.WriteLine("Enter first number:");
+                string _firstNumber = Console.ReadLine();
+                double firstNumber = Convert.ToDouble(_firstNumber);
 
-                Console.WriteLine("Type your second number: ");
-                string stringSecondNumber = Console.ReadLine();
-                double secondNumber = Convert.ToDouble(stringSecondNumber);
-
-                Console.WriteLine("Enter the operation: ");
+                Console.WriteLine("Choose operation: ");
                 Console.WriteLine("+ (addition), ");
                 Console.WriteLine("- (substraction), ");
                 Console.WriteLine("* (multiplication, ");
                 Console.WriteLine("/ (division), ");
                 Console.WriteLine("^ (exponentiation), ");
                 Console.WriteLine("% (modulus)");
-                string stringOperation = Console.ReadLine();
+                string operation = Console.ReadLine();
+               
 
+                Console.WriteLine("Enter second number: ");
+                string _secondNumber = Console.ReadLine();
+                double secondNumber = Convert.ToDouble(_secondNumber);
 
-                // Convert string choice to integral
-                if (stringOperation == "+" || stringOperation == "addition")
-                {
-                    operation = 1;
-                }
-                else if (stringOperation == "-" || stringOperation == "soustraction")
-                {
-                    operation = 2;
-                }
-                else if (stringOperation == "*" || stringOperation == "multiplication")
-                {
-                    operation = 3;
-                }
-                else if (stringOperation == "/" || stringOperation == "division")
-                {
-                    operation = 4;
-                }
-                else if (stringOperation == "^" || stringOperation == "exponentiation")
-                {
-                    operation = 5;
-                }
-                else if (stringOperation == "%" || stringOperation == "modulus")
-                {
-                    operation = 6;
-                }
-                else if (stringOperation == "x" || stringOperation == "exit")
-                {
-                    operation = 7; 
-                }
-
-                //Do someting depending on the operation choose
+                //go to case operation
                 switch (operation)
                 {
-                    case 1:
+                    case "+":
+                    case "addition":
                         result = firstNumber + secondNumber;
                         break;
 
-                    case 2:
+                    case "-":
+                    case "substraction":
                         result = firstNumber - secondNumber;
                         break;
 
-                    case 3:
+                    case "*":
+                    case "multiplication":
                         result = firstNumber * secondNumber;
                         break;
 
-                    case 4:
+                    case "/":
+                    case "division":
                         result = firstNumber / secondNumber;
                         break;
 
-                    case 5:
+                    case "^":
+                    case "exponentiation":
                         result = Math.Pow(firstNumber, secondNumber);
                         break;
 
-                    case 6:
+                    case "modulus":
+                    case "%":
                         result = firstNumber % secondNumber;
                         break;
-                    case 7:
-                        Console.WriteLine("Client desconnected");
+                    case "x":
+                    case "exit":
+                        Console.WriteLine("Client disconnected");
                         break;
                 }
-                Console.WriteLine("\nResult of " + firstNumber + " " + stringOperation + " " + secondNumber + " = " + result + ".");
+                Console.WriteLine("\nResult of " + firstNumber + " " + operation + " " + secondNumber + " = " + result + ".");
                 Console.WriteLine("Press any key to make a new calculation");
                 Console.ReadKey();
             }
@@ -133,9 +105,9 @@ namespace client_app
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Simply Sam!");
-            Console.WriteLine("Simply Sam is a simplified verison of windows Sam. You can ask sam to help you calculate simple mathematical operations and he wil calculate it for you");
-            Console.WriteLine("Press [a] to start asking Sam for help. Press [x] to exit application");
+            Console.WriteLine("Welcome to Simply Math");
+            Console.WriteLine("This console projekt allows you to solve very simple math operations");
+            Console.WriteLine(" [a] Start calculations\n [x] Exit application");
 
             string data = null;
             data = Console.ReadLine();
